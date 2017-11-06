@@ -5,7 +5,14 @@
  */
 package main;
 
+import Uri1142.Uri1142;
+import Uri1151.Uri1151;
 import pkg1042sortsimples.Uri1042;
+import pkg1045triangulo.Uri1045;
+import pkg1114senha.Uri1114;
+import pkg2031.Uri2031;
+import pkg2167.Uri2167;
+import uri1960.URI1960;
 
 /**
  *
@@ -19,10 +26,28 @@ public class Main {
             switch(args[0]){
                 case"1042":
                     Uri1042.run();
-                break;/*
+                break;
                 case"1045":
                     Uri1045.run();
-                */
+                break;
+                case"1114":
+                    Uri1114.run();
+                break;
+                case"1151":
+                    Uri1151.run();
+                break;
+                 case"2031":
+                    Uri2031.run();
+                break;
+                 case"2167":
+                    Uri2167.run();
+                break;
+                 case"1960":
+                    URI1960.run();
+                break;
+                 case"1142":
+                    Uri1142.run();
+                break;
                 default:
                     System.out.println("Problema não existente");
                     
