@@ -10,15 +10,23 @@ package Uri1151;
  * @author Sahra
  */
 public class Fibonacci {
-     public void gerarFibonacci(int numero){
+    public String gerarFibonacci(int numero){
+        StringBuilder b = new StringBuilder();
         int n1 = 1, n2 = 0;
-        System.out.print(n2 + " ");
-        System.out.print(n1 + " ");
+        b.append(n2);
+        b.append(" ");
+        b.append(n1);
+        b.append(" ");
         
             for(int j = 0; j < (numero-2); j++){
                 n1 = n1 + n2;
                 n2 = n1 - n2;
-                System.out.print(n1 + " ");
+                b.append(n1);
+                
+                if(j+1 != numero-2){
+                    b.append(" ");
+                }
             }
+            return b.toString();
     }
 }

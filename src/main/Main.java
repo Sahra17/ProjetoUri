@@ -7,9 +7,11 @@ package main;
 
 import Uri1142.Uri1142;
 import Uri1151.Uri1151;
+import Uri2582.Uri2582;
 import pkg1042sortsimples.Uri1042;
 import pkg1045triangulo.Uri1045;
 import pkg1114senha.Uri1114;
+import pkg1789lesmas.Uri1789;
 import pkg2031.Uri2031;
 import pkg2167.Uri2167;
 import uri1960.URI1960;
@@ -47,6 +49,12 @@ public class Main {
                 break;
                  case"1142":
                     Uri1142.run();
+                break;
+                case"1789":
+                    Uri1789.run();
+                break;
+                case"2582":
+                    Uri2582.run();
                 break;
                 default:
                     System.out.println("Problema não existente");

@@ -12,15 +12,11 @@ import javax.swing.JOptionPane;
  * @author Sahra
  */
 public class URI1960 {
-    public static void run(String[] args) {
+    public static void run() {
         NumerosRomanos NR = new NumerosRomanos();
         
         String num = JOptionPane.showInputDialog("Digite o número:");
         
         JOptionPane.showMessageDialog(null, NR.getRomanos(num));
-    }
-
-    public static void run() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

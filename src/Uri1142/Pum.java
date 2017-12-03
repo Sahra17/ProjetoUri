@@ -12,16 +12,18 @@ import java.util.Scanner;
  * @author Sahra
  */
 public class Pum {
-        public void gerarSequencia(int numero){
-        int cont = 0;
+        public String gerarSequencia(int numero){
+        StringBuilder b = new StringBuilder();
+            int cont = 0;
             for(int j = 1; j <= (numero * 4); j++){
-                System.out.print(j+" ");
+                b.append(j+" ");
                 cont++;
                 if(cont == 3){
                     j++;
-                    System.out.println("PUM ");
+                    b.append("PUM\n");
                     cont = 0;
                 }
             }
+            return b.toString();
         }
 }
