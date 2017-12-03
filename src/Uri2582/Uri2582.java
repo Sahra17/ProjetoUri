@@ -28,5 +28,5 @@ public class Uri2582 {
             X += input.nextInt(); 
             S.musica(X);  
         }
-    }       
+    }      
 }
