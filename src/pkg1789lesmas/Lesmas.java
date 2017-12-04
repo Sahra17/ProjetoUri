@@ -5,26 +5,24 @@
  */
 package pkg1789lesmas;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Sahra
  */
 public class Lesmas {
-    public static int maior(ArrayList<Integer> num){
+    public static String maior(int[] num){
         int maior=0;
         
-        for(Integer valor : num) {  
+        for(int valor : num) {  
             if(valor > maior) {
                 maior = valor;
             }
         }
         
-        return maior;
+        return nivel(maior);
     }
     
-    public String nivel(int maior){
+    public static String nivel(int maior){
         String nivel = null;
         
         if(maior < 10){
